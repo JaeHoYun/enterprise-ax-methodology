@@ -2,7 +2,7 @@
 
 > 본문 방법론을 현장에서 채워 쓰는 양식 모음입니다. 계산용 스프레드시트가 아니라 항목을 따라 직접 적어 넣는 마크다운 양식이며, 빈칸이 많은 것은 채우는 용도이기 때문입니다(미완성이 아닙니다).
 
-이 폴더의 워크시트는 [문서 03 대안](../docs/03-alternative.md)의 실행 루프(진단 → 발굴 → 파일럿 게이트 → 다음 사이클)와 [문서 06 전사 확장](../docs/06-enterprise-scale.md)의 확장 국면을 받칩니다. 각 양식이 무엇을 위한 것이고, 누가 채우며, 언제 쓰고, 채운 뒤 무엇으로 이어지는지를 먼저 정리합니다.
+이 폴더의 워크시트는 [문서 03 대안](../docs/03-alternative.md)의 실행 루프(진단 → 발굴 → 파일럿 게이트 → 다음 사이클)와 [문서 06 전사 확장](../docs/06-enterprise-scale.md)의 확장 국면, 그리고 [문서 09 브라운필드 AX](../docs/09-brownfield-assessment.md)의 현황 진단·전환을 받칩니다. 각 양식이 무엇을 위한 것이고, 누가 채우며, 언제 쓰고, 채운 뒤 무엇으로 이어지는지를 먼저 정리합니다.
 
 ## 워크시트 개요
 
@@ -50,6 +50,29 @@
 | [`use-case-canvas.md`](use-case-canvas.md) | [docs/04 유스케이스](../docs/04-portfolio.md) |
 | [`pilot-gate.md`](pilot-gate.md) | [docs/03 대안](../docs/03-alternative.md) |
 | [`scale-readiness.md`](scale-readiness.md) | [docs/06 전사 확장](../docs/06-enterprise-scale.md) |
+| [`ai-estate-inventory.md`](ai-estate-inventory.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+| [`gap-register.md`](gap-register.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+| [`disposition-matrix.md`](disposition-matrix.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+| [`ai-finops-scorecard.md`](ai-finops-scorecard.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+| [`governance-sovereignty-gap.md`](governance-sovereignty-gap.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+| [`transition-report.md`](transition-report.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+| [`transition-charter.md`](transition-charter.md) | [docs/09 브라운필드](../docs/09-brownfield-assessment.md) |
+
+## 브라운필드 트랙 워크시트 (이미 AI를 쓰는 조직)
+
+위 네 워크시트가 그린필드 정규 루프(진단 → 발굴 → 게이트 → 확장)를 받친다면, 아래 일곱은 **이미 AI를 광범위하게 쓰는 조직**이 현존 자산을 역방향으로 감사·정리하는 [문서 09 브라운필드 AX](../docs/09-brownfield-assessment.md)의 입력입니다. 전방용 `scale-readiness`와 반대 방향(기존 자산 감사)입니다.
+
+흐름: **자산 인벤토리** → **갭 레지스터** → (**처분 매트릭스**·**FinOps 스코어카드**·**거버넌스/주권 갭**) → **종합 개선안 보고서** → **전환 차터** → 검증 유스케이스는 위 정규 루프(캔버스 → 게이트)로 합류.
+
+| 워크시트 | 무엇을 채우나 |
+|----------|---------------|
+| [자산 인벤토리](ai-estate-inventory.md) | AS-IS 8블록(컴퓨트·워크로드·데이터·퍼블릭 클라우드 AI·에이전트·조직·비용·보안) 실측 |
+| [갭 레지스터](gap-register.md) | 항목별 결함을 안티패턴 9종·6차원에 태깅, 심각도×영향 우선순위 |
+| [처분 매트릭스](disposition-matrix.md) | 자산별 6R(잔류·이전·회수·통합·재구성·폐기) 결정 |
+| [FinOps 스코어카드](ai-finops-scorecard.md) | 기존 AI 지출 감사(단위경제·가동률·회수 손익분기) |
+| [거버넌스·주권 갭](governance-sovereignty-gap.md) | NIST AI RMF·EU AI Act·ISO 42001 대비 통제 격차 + 데이터주권 소급 |
+| [종합 개선안 보고서](transition-report.md) | 현황→갭→TO-BE→마이그레이션→조직→비용/통제→로드맵 (경영진 제출 템플릿) |
+| [전환 차터](transition-charter.md) | 전환 프로젝트 목표·범위·게이트0·리스크·성공기준 |
 
 ## 중요
 

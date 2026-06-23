@@ -98,4 +98,4 @@ AX는 단일 ROI 숫자로 측정하지 않습니다. 네 층으로 봅니다.
 
 ---
 
-[← 이전: 07 Private AI로 AX 갖추기](07-private-ai-strategy.md) · [목차](../README.md) · [다음: A1 용어집·FAQ·참고 →](../appendix/A1-appendix.md)
+[← 이전: 07 Private AI로 AX 갖추기](07-private-ai-strategy.md) · [목차](../README.md) · [다음: 09 브라운필드 AX: 현황 진단과 전환 착수 →](09-brownfield-assessment.md)
