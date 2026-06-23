@@ -48,7 +48,7 @@
 
 ## 4. Platform-pull 신호
 
-[문서 06](../docs/06-private-ai-strategy.md)의 플랫폼·Private AI 전환 신호를 점검합니다.
+[문서 07](../docs/07-private-ai-strategy.md)의 플랫폼·Private AI 전환 신호를 점검합니다.
 
 - ☐ 다른 파일럿과 공통으로 요구되는 계층이 있는가 (서빙·검색·접근통제 등): ______________
 - ☐ 실데이터·민감정보를 요구하기 시작했는가
@@ -59,4 +59,4 @@
 
 ---
 
-[← 워크시트 목록](README.md) · [03 대안](../docs/03-alternative.md) · [06 Private AI 전략](../docs/06-private-ai-strategy.md)
+[← 워크시트 목록](README.md) · [03 대안](../docs/03-alternative.md) · [07 Private AI 전략](../docs/07-private-ai-strategy.md)
