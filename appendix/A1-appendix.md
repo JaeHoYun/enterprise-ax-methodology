@@ -66,7 +66,7 @@
 - **과업 기반 분류**(§4.2) — 직무→과업→활동으로 분해한 뒤 목적을 먼저 정의하고, 각 활동을 자동화·증강·사람 전담(Human-only) 영역으로 나누는 접근. 자동화/증강 구분은 위 Anthropic Economic Index 등 실증과 맞닿아 있습니다. 본 가이드는 이를 일반 개념으로 반영하며, 분류가 기존 사고 틀에 갇히는 한계도 함께 짚습니다.
 - Private AI 구현의 구체 경로는 다음 시리즈를 참조하시기 바랍니다.
   - [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai-series)
-  - [① 인프라·운영](https://github.com/JaeHoYun/vcf-private-ai-guide) · [② 벡터 DB](https://github.com/JaeHoYun/vcf-dsm-vectordb-guide) · [③ 서빙 API](https://github.com/JaeHoYun/vcf-paif-serving-api-guide) · [④ RAG 아키텍처](https://github.com/JaeHoYun/vcf-rag-reference-architecture) · [⑤ 보안·거버넌스](https://github.com/JaeHoYun/vcf-private-ai-security-governance) · [⑥ 사이징·비용](https://github.com/JaeHoYun/vcf-private-ai-sizing-cost)
+  - [① 인프라·운영](https://github.com/JaeHoYun/vcf-private-ai-guide) · [② 벡터 DB](https://github.com/JaeHoYun/vcf-dsm-vectordb-guide) · [③ 서빙 API](https://github.com/JaeHoYun/vcf-paif-serving-api-guide) · [④ RAG 아키텍처](https://github.com/JaeHoYun/vcf-rag-reference-architecture) · [⑤ 보안·거버넌스](https://github.com/JaeHoYun/vcf-private-ai-security-governance) · [⑥ 사이징·비용](https://github.com/JaeHoYun/vcf-private-ai-sizing-cost) · [⑦ 통합 설계](https://github.com/JaeHoYun/vcf-private-ai-design)
 
 ## A1.4 변경 이력
 
