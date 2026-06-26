@@ -98,7 +98,7 @@
 | G-[ ] | [ ] | F-[ ] | [예: 빅뱅 / 중복 신설] | [예: 거버넌스] | [상/중/하] |
 | G-[ ] | ··· | ··· | ··· | ··· | ··· |
 
-**태깅 규칙.** 갭 하나에 안티패턴이 여러 개 걸릴 수 있습니다. 차원 태그는 어느 개선이 어느 축을 움직이는지 보이게 하려는 표식이며, [03-alternative.md](../docs/03-alternative.md)의 증분 6원칙과 한 방향으로 연결합니다. 거버넌스·통제성 갭은 6차원 태그에 '거버넌스/주권'을 달아, S6 통제 표가 역참조할 때 통제 갭만 골라낼 수 있게 하십시오.
+**태깅 규칙.** 갭 하나에 안티패턴이 여러 개 걸릴 수 있습니다. 차원 태그는 어느 개선이 어느 축을 움직이는지 보이게 하려는 표식이며, [03-alternative.md](../docs/03-alternative.md)의 점진적 6원칙과 한 방향으로 연결합니다. 거버넌스·통제성 갭은 6차원 태그에 '거버넌스/주권'을 달아, S6 통제 표가 역참조할 때 통제 갭만 골라낼 수 있게 하십시오.
 
 **다음 활용.** 심각도 상위 갭이 S4 처분 우선순위와 S7 로드맵의 1차 대상이 됩니다. 추적 체인(F → 갭 → 처분 → 로드맵)이 끊기지 않도록 ID를 그대로 이어 쓰십시오.
 
@@ -244,7 +244,7 @@
 
 - 안티패턴 9종 정의 — [01-diagnosis.md](../docs/01-diagnosis.md)
 - 성숙도 레벨(인벤토리가 증거 입력) — [02-maturity.md](../docs/02-maturity.md)
-- 증분 6원칙·6차원 — [03-alternative.md](../docs/03-alternative.md)
+- 점진적 6원칙·6차원 — [03-alternative.md](../docs/03-alternative.md)
 - 운영 모델·조직 — [05-operating-model.md](../docs/05-operating-model.md)
 - 확장 시 조직 형상 — [06-enterprise-scale.md](../docs/06-enterprise-scale.md)
 - TO-BE 빌딩블록·외부 구현 위임 — [07-private-ai-strategy.md](../docs/07-private-ai-strategy.md)
