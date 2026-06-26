@@ -49,6 +49,8 @@
 | **PAIF** | VMware Private AI Foundation with NVIDIA. VCF 기반 AI 인프라 계층 |
 | **PAIS** | Private AI Services. 모델 서빙·RAG·에이전트를 관리형으로 제공하는 서비스 계층 |
 | **VCF** | VMware Cloud Foundation. 통합 프라이빗 클라우드 플랫폼 |
+| **Forward Deployed Engineer (FDE)** | 고객사에 상주·파견되어 솔루션을 맞춤·정착시키는 외부 엔지니어. AX의 빠른 출발점이 될 수 있으나, 내부 역량으로 이양하지 않으면 의존으로 끝남(§5.8) |
+| **벤더 선택지(optionality)** | 특정 벤더·모델에 묶이지 않고 더 나은 것이 나오면 갈아탈 수 있는 여지. 정의·평가셋은 내부 자산으로 남기고 모델·벤더 계층만 교체 가능하게 두어 지킨다(§5.8). 파일럿의 '옵션 가치'와는 다른 개념 |
 
 ## A1.2 자주 묻는 질문
 
@@ -80,6 +82,7 @@
 - **자동화·증강 분류**(§4.2) — Anthropic Economic Index. 실제 AI 사용 데이터에서 증강(augmentation)이 완전 자동화보다 우세하게 나타나며, 직무·인터페이스별로 사용 패턴이 크게 다릅니다("할 수 있다"와 "실제로 쓰인다"의 차이, §4.6.1).
 - **과업 기반 분류**(§4.2) — 직무→과업→활동으로 분해한 뒤 목적을 먼저 정의하고, 각 활동을 자동화·증강·사람 전담(Human-only) 영역으로 나누는 접근. 자동화/증강 구분은 위 Anthropic Economic Index 등 실증과 맞닿아 있습니다. 본 가이드는 이를 일반 개념으로 반영하며, 분류가 기존 사고 틀에 갇히는 한계도 함께 짚습니다.
 - **시장 신호: 프로덕션 AI의 프라이빗 클라우드 이동**(§7.1) — Broadcom, *Private Cloud Outlook 2026*(2회차 연례 조사). 응답 기업의 56%가 프로덕션 AI 추론을 프라이빗 클라우드에서 운영 중이거나 계획 중이라고 답했고, AI가 IT에 새로 부과하는 최대 요구로 데이터 보호·프라이버시(37%)와 보안·통제(36%)를 꼽았으며, 퍼블릭 클라우드의 1순위 우려가 보안에서 비용으로 바뀌었다고 보고합니다. 검증·확장 단계에서 데이터 주권·비용·통제 압력이 커진다는 본 가이드 §7.1의 논지와 같은 방향을 가리키는 외부 신호입니다. 다만 벤더가 발간한 설문이므로 절대 수치보다 방향성의 참고 자료로 보시기 바랍니다. (원문: [Understand what's driving shifts in AI demands](https://www.linkedin.com/pulse/understand-whats-driving-shifts-ai-demands-vmware-1odje/))
+- **업계 관점: 외주(FDE)에서 내부 AI Engineer로**(§5.8) — Andrew Ng, *Forward Deployed Engineers and the Future of AI Engineering*, The Batch / Letters from Andrew Ng(2026-05-29). 고객사에 상주하며 솔루션을 맞춤·정착시키는 Forward Deployed Engineer(FDE)가 부상하고 있으나, 기업은 소수의 외부 FDE보다 자기 조직에서 AI를 만들고 운영할 인력(AI Engineer)을 훨씬 더 많이 필요로 하고, 한 벤더에 깊게 묶이면 선택지(optionality)를 잃기 때문에 AI Engineer 수요가 더 커진다는 논지입니다. AI Engineer 역할이 LLMOps·Evals·AI Data·Harness 엔지니어 등으로 분화하리라는 전망도 함께 제시합니다. 외주로 시작하되 내부 운영 역량과 벤더 선택지를 종착점으로 둔다는 본 가이드 §5.8과 같은 방향의 외부 근거입니다. 다만 (가) 수요 차이는 "훨씬 많다"는 정성적 표현이며 배수·수치로 제시되지 않았고, (나) 원문은 FDE를 부정하지 않고 FDE와 AI Engineer를 모두 새로 생기는 일자리로 보며(외주의 깊은 통합은 도입 속도·완성도에서 단기 이점), (다) 선택지 보존에는 추상화·운영 비용과 벤더 고유 기능 포기라는 트레이드오프가 따른다는 점을 함께 보시기 바랍니다. (원문: [Forward Deployed Engineers and the Future of AI Engineering](https://www.deeplearning.ai/the-batch/forward-deployed-engineers-and-the-future-of-ai-engineering))
 - **업계 프레임워크: Platform Engineering 2.0**(§6·§6.7) — Broadcom · PlatformEngineering.org 공동 백서, *Platform Engineering 2.0: An Evolution for the AI Era*. 개발자 중심의 기존 플랫폼(Platform Engineering 1.0)이 AI 네이티브 플랫폼·다중 페르소나·내장 FinOps·보안 기층화·컴포저블(조합형) 아키텍처의 다섯 축으로 확장되어야 한다는 프레임워크로, 06의 진화형 아키텍처(§6.2)·골든 패스(§6.3)·비용 규율(§6.7) 논지와 같은 방향입니다. 백서가 인용한 두 제3자 통계는 1차 출처로 직접 확인했습니다 — 조직의 90%가 하나 이상의 (내부 개발자) 플랫폼을 도입(Google DORA, [2025 State of AI-assisted Software Development](https://dora.dev/dora-report-2025/)), 기업이 평균적으로 필요량보다 약 35% 더 많은 클라우드 자원에 지출(KPMG, [As cloud over-spending rises, look to cost optimization](https://kpmg.com/xx/en/our-insights/transformation/cloud-cost-optimization.html)). 후자는 '지출의 35%가 낭비'가 아니라 '필요량 대비 약 35% 초과 지출'이라는 점에 유의해 §6.7에 그대로 반영했습니다. (백서 원문: [The Time for Platform Engineering 2.0 Is Now](https://www.linkedin.com/pulse/time-platform-engineering-20-now-vmwarevcf-m3yfc/))
 - Private AI 구현의 구체 경로는 다음 시리즈를 참조하시기 바랍니다.
   - [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai-series)
@@ -87,6 +90,7 @@
 
 ## A1.4 변경 이력
 
+- **v1.16 (2026-06):** 05 §5.8 신설 — '외부 전문가(FDE)로 시작하되 내부 역량으로 이양' + 벤더 선택지(optionality)를 운영 원칙으로(이양 설계·선언형 정의·모델 교체가능·평가셋 내부자산화, 균형 캐비엇 포함). A1.1에 Forward Deployed Engineer(FDE)·벤더 선택지(optionality) 등재, A1.3에 Andrew Ng *Forward Deployed Engineers and the Future of AI Engineering*(The Batch, 2026-05-29)을 외부 근거로 출처·캐비엇과 함께 추가. 벤더·고객사 실명은 본문에 두지 않고 사상 출처만 인용.
 - **v1.15 (2026-06):** repatriation '회수'→'온프렘 회귀' 용어 통일(A1.1 용어집 헤드워드·6R·데이터 중력·매니지드/서버리스 포함). reclaim·payback(회수기간)·harvest(학습·자산 회수)·권한 회수 용법은 의미 그대로 유지.
 - **v1.14 (2026-06):** 08 §8.4.1 복귀 경로 신설 — 체크리스트 '아니오'를 복귀 3스텝 규율·8개 항목별 라우팅 표·구조적 복귀 경로(§5.7·문서09·§5.6.5)로 연결. '복귀도 빅뱅이 아니다'.
 - **v1.13 (2026-06):** 05 §5.6에 실패 자산화 절(§5.6.5) 신설 — 용인을 넘어 평가셋·반례·중단 근거·조직 안티패턴·부분 자산으로 회수하고 학습 지표로 측정. §5.7의 문서 08 교차참조 오타 2건(§7.2→§8.2.1, §7.3→§8.3) 정정.
