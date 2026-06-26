@@ -79,12 +79,14 @@
 - **심리적 안전감**(§5.6) — Amy C. Edmondson, *The Fearless Organization* (2018). 심리적 안전감을 "처벌·창피 없이 아이디어·질문·우려·실수를 말할 수 있다는 믿음"으로 정의하며, 성과가 높은 팀일수록 오류를 더 솔직히 드러낸다는 연구를 제시합니다.
 - **자동화·증강 분류**(§4.2) — Anthropic Economic Index. 실제 AI 사용 데이터에서 증강(augmentation)이 완전 자동화보다 우세하게 나타나며, 직무·인터페이스별로 사용 패턴이 크게 다릅니다("할 수 있다"와 "실제로 쓰인다"의 차이, §4.6.1).
 - **과업 기반 분류**(§4.2) — 직무→과업→활동으로 분해한 뒤 목적을 먼저 정의하고, 각 활동을 자동화·증강·사람 전담(Human-only) 영역으로 나누는 접근. 자동화/증강 구분은 위 Anthropic Economic Index 등 실증과 맞닿아 있습니다. 본 가이드는 이를 일반 개념으로 반영하며, 분류가 기존 사고 틀에 갇히는 한계도 함께 짚습니다.
+- **시장 신호: 프로덕션 AI의 프라이빗 클라우드 이동**(§7.1) — Broadcom, *Private Cloud Outlook 2026*(2회차 연례 조사). 응답 기업의 56%가 프로덕션 AI 추론을 프라이빗 클라우드에서 운영 중이거나 계획 중이라고 답했고, AI가 IT에 새로 부과하는 최대 요구로 데이터 보호·프라이버시(37%)와 보안·통제(36%)를 꼽았으며, 퍼블릭 클라우드의 1순위 우려가 보안에서 비용으로 바뀌었다고 보고합니다. 검증·확장 단계에서 데이터 주권·비용·통제 압력이 커진다는 본 가이드 §7.1의 논지와 같은 방향을 가리키는 외부 신호입니다. 다만 벤더가 발간한 설문이므로 절대 수치보다 방향성의 참고 자료로 보시기 바랍니다.
 - Private AI 구현의 구체 경로는 다음 시리즈를 참조하시기 바랍니다.
   - [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai-series)
   - [① 인프라·운영](https://github.com/JaeHoYun/vcf-private-ai-guide) · [② 벡터 DB](https://github.com/JaeHoYun/vcf-dsm-vectordb-guide) · [③ 서빙 API](https://github.com/JaeHoYun/vcf-paif-serving-api-guide) · [④ RAG 아키텍처](https://github.com/JaeHoYun/vcf-rag-reference-architecture) · [⑤ 보안·거버넌스](https://github.com/JaeHoYun/vcf-private-ai-security-governance) · [⑥ 사이징·비용](https://github.com/JaeHoYun/vcf-private-ai-sizing-cost) · [⑦ 통합 설계](https://github.com/JaeHoYun/vcf-private-ai-design)
 
 ## A1.4 변경 이력
 
+- **v1.11 (2026-06):** A1.3 참고에 시장 신호 항목 추가(Broadcom *Private Cloud Outlook 2026*, 출처·편향 명시). 07 §7.1에서 교차참조. 수치는 참고에만 두어 벤더 중립 유지.
 - **v1.10 (2026-06):** docs/09 §9.3 회수 앞단 자산 분류 보강에 맞춰 A1.1에 용어 추가(매니지드/서버리스·MLOps(플랫폼·파이프라인)). 회수(repatriation)는 v1.9에서 등재된 항목 유지. 온프레미스 MLOps 전환의 상세 설계는 VCF ⑦에 위임.
 - **v1.9 (2026-06):** 브라운필드 적용 트랙 신설(docs/09 + 워크시트 7종). A1.1에 브라운필드 용어(그린필드/브라운필드·회수(repatriation)·데이터 중력·비인간 식별자(NHI)·섀도 AI·자산 처분 6R) 추가, 02 성숙도에 브라운필드 진입 분기.
 - **v1.8 (2026-06):** 신규 문서 06 전사 확장 추가에 따른 보강 — 06 Private AI→07·07 로드맵→08 리넘버, A1.1에 확장 관련 용어(지층 아키텍처·골든 패스·데이터 청지기 책임·FinOps·품질 표류·우아한 저하) 추가, 02 성숙도 '플랫폼·아키텍처' 축 보강, 확장 준비도 워크시트(scale-readiness) 신설.
