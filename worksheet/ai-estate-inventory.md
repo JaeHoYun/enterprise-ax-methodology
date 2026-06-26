@@ -175,6 +175,6 @@
 
 ---
 
-**다음 단계 참조** — [문서 01 — 진단①: DX 답습형 AX는 왜 실패하는가](../docs/01-diagnosis.md)(빅뱅 안티패턴) · [문서 02 — 진단②: AX 성숙도 자가진단](../docs/02-maturity.md)(레벨 판정의 증거로 사용) · [문서 03 — 대안: 증거 기반 점진적 AX](../docs/03-alternative.md)(증분 원칙) · [문서 07 — Private AI로 AX 갖추기](../docs/07-private-ai-strategy.md) · [문서 08 — 실행 로드맵과 측정](../docs/08-roadmap.md) · [부록 A1 — 용어집·FAQ·참고](../appendix/A1-appendix.md)
+**다음 단계 참조** — [문서 01 — 진단①: DX 답습형 AX는 왜 실패하는가](../docs/01-diagnosis.md)(빅뱅 안티패턴) · [문서 02 — 진단②: AX 성숙도 자가진단](../docs/02-maturity.md)(레벨 판정의 증거로 사용) · [문서 03 — 대안: 증거 기반 점진적 AX](../docs/03-alternative.md)(점진적 원칙) · [문서 07 — Private AI로 AX 갖추기](../docs/07-private-ai-strategy.md) · [문서 08 — 실행 로드맵과 측정](../docs/08-roadmap.md) · [부록 A1 — 용어집·FAQ·참고](../appendix/A1-appendix.md)
 
 **내비게이션** — [← 워크시트 목록](README.md) · [전방 준비도 양식: scale-readiness.md](scale-readiness.md)

@@ -118,7 +118,7 @@
 
 - 진단 트랙 전체 흐름: [`01-diagnosis.md`](../docs/01-diagnosis.md)
 - 성숙도 자가진단(레벨 라벨): [`02-maturity.md`](../docs/02-maturity.md) — 이 인벤토리·실측값이 레벨 판정의 증거 입력이 됩니다(인벤토리 → 레벨 한 방향 참조)
-- 증분 대안 원칙: [`03-alternative.md`](../docs/03-alternative.md)
+- 점진적 대안 원칙: [`03-alternative.md`](../docs/03-alternative.md)
 - 운영 모델: [`05-operating-model.md`](../docs/05-operating-model.md)
 - 전사 확장: [`06-enterprise-scale.md`](../docs/06-enterprise-scale.md)
 - Private AI 전략·위임: [`07-private-ai-strategy.md`](../docs/07-private-ai-strategy.md)
