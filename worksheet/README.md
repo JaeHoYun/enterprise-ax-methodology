@@ -68,7 +68,7 @@
 |----------|---------------|
 | [자산 인벤토리](ai-estate-inventory.md) | 현황(AS-IS) 9개 블록(컴퓨트·워크로드·데이터·퍼블릭 클라우드 AI·에이전트·조직·비용·보안·MLOps 플랫폼/파이프라인) 실측 |
 | [갭 레지스터](gap-register.md) | 항목별 결함을 안티패턴 9종·6차원에 태깅, 심각도×영향 우선순위 |
-| [처분 매트릭스](disposition-matrix.md) | 자산별 6R(잔류·이전·회수·통합·재구성·폐기) 결정 |
+| [처분 매트릭스](disposition-matrix.md) | 자산별 6R(잔류·이전·온프렘 회귀·통합·재구성·폐기) 결정 |
 | [FinOps 스코어카드](ai-finops-scorecard.md) | 기존 AI 지출 감사(단위경제·가동률·회수 손익분기) |
 | [거버넌스·주권 갭](governance-sovereignty-gap.md) | NIST AI RMF·EU AI Act·ISO 42001 대비 통제 격차 + 데이터주권 소급 |
 | [종합 개선안 보고서](transition-report.md) | 현황→갭→TO-BE→마이그레이션→조직→비용/통제→로드맵 (경영진 제출 템플릿) |
