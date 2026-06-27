@@ -107,7 +107,7 @@
 
 - 보고서 S2 입력: 우선순위·태그·정량 근거가 채워진 행을 문제 식별 절로 옮깁니다. 안티패턴 태그가 보고서의 진단 서술과 한 방향으로 연결됩니다.
 - 처분 매트릭스 입력: 개선 방향(온프렘 회귀·통합·폐기·유지·재계약)이 자산별 처분 결정의 초안이 됩니다. 결함 유형은 처분 매트릭스의 6R 매핑에 직접 쓰입니다(예: 중복→통합, 과프로비저닝→회수). 결정은 검증된 수요로 당겨질 때 확정합니다.
-- 거버넌스·주권 결함의 경계: 거버넌스 공백·권한 누수·락인 등 통제 격차는 [governance-sovereignty-gap.md](governance-sovereignty-gap.md)와 측정 범위가 겹칩니다. 이 레지스터에는 그 결함의 존재·태그·우선순위만 적고, 상세 통제 격차는 governance-sovereignty-gap.md를 정본으로 참조해 이중 집계를 피합니다.
+- 거버넌스·주권 결함의 경계: 거버넌스 공백·권한 누수·락인 등 통제 격차는 [governance-sovereignty-gap.md](governance-sovereignty-gap.md)와 측정 범위가 겹칩니다. 이 레지스터에는 그 결함의 존재·태그·우선순위만 적고, 상세 통제 격차는 governance-sovereignty-gap.md를 기준으로 참조해 이중 집계를 피합니다.
 - 로드맵 연계: P1·P2 항목이 [문서 08](../docs/08-roadmap.md)의 전환 프로젝트 후보로 넘어갑니다. 운영 책임 배분은 [문서 05](../docs/05-operating-model.md), 확장 판단은 [문서 06](../docs/06-enterprise-scale.md), 사설 AI 전략 정렬은 [문서 07](../docs/07-private-ai-strategy.md)를 참조합니다.
 - 용어: 이 양식에서 처음 쓴 낯선 용어는 [A1 용어집](../appendix/A1-appendix.md)에 등록되어 있다고 전제합니다.
 
