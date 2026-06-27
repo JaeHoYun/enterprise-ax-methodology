@@ -1,6 +1,6 @@
 # 투자 케이스 — 가치를 비용에 잇기
 
-> [문서 04 §4.8](../docs/04-portfolio.md)의 투자 케이스를 한 장에 채웁니다. 채택된 유스케이스(또는 묶음)마다 한 장씩 작성합니다. 비용 산식은 여기서 다시 만들지 않고 [⑥ 07 TCO 모델](https://github.com/JaeHoYun/vcf-private-ai-sizing-cost/blob/main/docs/07-tco-cost-model.md)에 위임합니다.
+> [문서 04 §4.8](../docs/04-portfolio.md)의 투자 케이스를 한 장에 채웁니다. 채택된 유스케이스(또는 묶음)마다 한 장씩 작성합니다. 비용 산식은 여기서 다시 만들지 않고 [⑥ 07 TCO 모델](https://github.com/JaeHoYun/vcf-private-ai/blob/main/06-sizing-cost/docs/07-tco-cost-model.md)에 위임합니다.
 
 - **누가** — 현업 오너·재무·플랫폼/인프라가 함께 채웁니다. 편익은 현업, 비용은 인프라·재무, 판정은 셋이 합의합니다.
 - **언제** — 우선순위에서 채택된 후보를 결재·예산에 올리기 직전. 파일럿 실측이 나오면 갱신합니다.
@@ -91,4 +91,4 @@
 
 ---
 
-[← 워크시트 목록](README.md) · [04 §4.8 투자 케이스](../docs/04-portfolio.md) · [⑥ 07 TCO 모델](https://github.com/JaeHoYun/vcf-private-ai-sizing-cost/blob/main/docs/07-tco-cost-model.md)
+[← 워크시트 목록](README.md) · [04 §4.8 투자 케이스](../docs/04-portfolio.md) · [⑥ 07 TCO 모델](https://github.com/JaeHoYun/vcf-private-ai/blob/main/06-sizing-cost/docs/07-tco-cost-model.md)
