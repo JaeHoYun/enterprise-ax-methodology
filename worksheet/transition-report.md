@@ -89,7 +89,7 @@
 
 ## S2. 갭·문제 식별
 
-> 입력: [gap-register.md](gap-register.md). 각 갭을 안티패턴 9종과 6차원으로 태깅해 옮겨 적습니다. 안티패턴 정의는 [01-diagnosis.md](../docs/01-diagnosis.md), 6차원은 [03-alternative.md](../docs/03-alternative.md)를 따릅니다.
+> 입력: [gap-register.md](gap-register.md). 각 갭을 안티패턴 10종과 6차원으로 태깅해 옮겨 적습니다. 안티패턴 정의는 [01-diagnosis.md](../docs/01-diagnosis.md), 6차원은 [03-alternative.md](../docs/03-alternative.md)를 따릅니다.
 
 **갭 등록부 요약.**
 
@@ -242,7 +242,7 @@
 
 ## 교차 참조
 
-- 안티패턴 9종 정의 — [01-diagnosis.md](../docs/01-diagnosis.md)
+- 안티패턴 10종 정의 — [01-diagnosis.md](../docs/01-diagnosis.md)
 - 성숙도 레벨(인벤토리가 증거 입력) — [02-maturity.md](../docs/02-maturity.md)
 - 점진적 6원칙·6차원 — [03-alternative.md](../docs/03-alternative.md)
 - 운영 모델·조직 — [05-operating-model.md](../docs/05-operating-model.md)
