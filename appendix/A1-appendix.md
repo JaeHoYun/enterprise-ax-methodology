@@ -98,4 +98,4 @@
 
 ---
 
-[← 상위 README](../README.md) · [← 이전: 10 AI 거버넌스](../docs/10-governance.md)
+[← 상위 README](../README.md) · [← 이전: 10 AI 거버넌스](../docs/10-governance.md) · [다음: A2 한국 규제·정책 타임라인 →](A2-kr-regulatory-timeline.md)
