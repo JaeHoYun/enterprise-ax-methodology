@@ -32,6 +32,7 @@ DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지�
 | 07 | [Private AI로 AX 갖추기](docs/07-private-ai-strategy.md) | 왜·언제 Private AI인가, 단계적 전환, 빌딩블록, platform-pull과 도입 타이밍 |
 | 08 | [실행 로드맵과 측정](docs/08-roadmap.md) | 시간축 로드맵, 4층 측정 체계, 가치 실현 보고, 실패 회피 체크리스트 |
 | 09 | [브라운필드 AX — 현황 진단과 전환 착수](docs/09-brownfield-assessment.md) | 두 진입로, 진단 7도메인, 퍼블릭→프라이빗 온프렘 회귀 판정, 종합 개선안 보고서, 전환 차터 |
+| 10 | [AI 거버넌스 — 영역별 통제 맵과 규제 접속](docs/10-governance.md) | 모델·데이터·인프라·보안·에이전트 영역별 통제, 에이전트 거버넌스(자율성·신원·레지스트리), 법정 의무·표준 접속 |
 | A1 | [용어집·FAQ·참고](appendix/A1-appendix.md) | 핵심 용어, 자주 묻는 질문, 참고 자료 |
 | 워크시트 | [채워넣기 워크시트](worksheet/README.md) | 성숙도·캔버스·투자 케이스·파일럿 게이트·확장 준비도 + 브라운필드 진단(인벤토리·갭·처분·보고서·차터) |
 
@@ -47,7 +48,8 @@ DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지�
 - **"이걸 사내 AI로 어떻게 갖추나"** → [07](docs/07-private-ai-strategy.md)
 - **"90일·1년 실행 계획과 측정은"** → [08](docs/08-roadmap.md)
 - **"이미 AI를 쓰고 있는데, 현황 진단부터 하려면"** → [09](docs/09-brownfield-assessment.md) + [브라운필드 워크시트](worksheet/README.md)
-- **임원이라면** → [00](docs/00-orientation.md) · [01](docs/01-diagnosis.md) · [03](docs/03-alternative.md) · [06](docs/06-enterprise-scale.md) · [07](docs/07-private-ai-strategy.md)
+- **"거버넌스는 무엇을 통제해야 하고, 규제에는 어떻게 대응하나"** → [10](docs/10-governance.md) + [거버넌스·주권 갭 워크시트](worksheet/governance-sovereignty-gap.md)
+- **임원이라면** → [00](docs/00-orientation.md) · [01](docs/01-diagnosis.md) · [03](docs/03-alternative.md) · [06](docs/06-enterprise-scale.md) · [07](docs/07-private-ai-strategy.md) · [10](docs/10-governance.md)
 
 ## 관련 가이드 — Private AI 구현
 

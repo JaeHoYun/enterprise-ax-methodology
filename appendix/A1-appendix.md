@@ -41,6 +41,10 @@
 | **온프렘 회귀(repatriation)** | 퍼블릭 클라우드로 나갔던 AI 워크로드를 온프레미스·사내로 되돌리는 것. 지속 가동률·회수기간·사용 패턴·데이터 주권으로 판정. (한국어 '회수'는 reclaim/unprovisioning으로 읽히기 쉬워 '온프렘 회귀'로 표기) |
 | **데이터 중력(data gravity)** | 데이터가 쌓일수록 옮기기 어려워지고 연산이 데이터 쪽으로 끌려오는 경향. 온프렘 회귀·배치 결정의 한 축 |
 | **비인간 식별자(NHI, non-human identity)** | 사람이 아닌 에이전트·서비스 계정의 신원. 권한·추적 관리 대상이며 인간 신원 대비 수가 큼 |
+| **에이전트 레지스트리(agent registry)** | 운영 중인 에이전트의 신원(NHI)·책임자·권한 범위·만료·퇴역을 관리하는 대장. 모델 카탈로그("어떤 모델을 쓸 수 있나")와 달리 "어떤 행위자가 어떤 권한으로 돌고 있고 누가 책임지나"를 담음(§10.3) |
+| **자율성 수준(autonomy level)** | 에이전트에게 맡긴 판단·실행의 폭 — 보조 → 위임 실행 → 자율 판단. 위험 등급과 별개로 곱해지는 통제 축(§10.3) |
+| **MCP (Model Context Protocol)** | 모델·에이전트를 도구·데이터에 연결하는 공개 표준 프로토콜. 중립 재단(Linux Foundation 산하)이 관리 |
+| **A2A (Agent2Agent)** | 에이전트 사이의 통신·협업을 위한 공개 표준 프로토콜. MCP가 에이전트↔도구라면 A2A는 에이전트↔에이전트를 담당 |
 | **섀도 AI(shadow AI)** | 통제·등록 밖에서 번진 AI 사용(미승인 외부 API·미등록 에이전트). 금지가 아니라 발견·양성화 대상 |
 | **자산 처분(6R)** | 현존 자산의 처리 결정 — 잔류·이전·온프렘 회귀·통합·재구성·폐기. 민감도·단가·재작성비·종속도로 스코어링 |
 | **매니지드/서버리스(managed/serverless)** | 인프라 운영을 외부 사업자에게 맡기는 소비 형태. 매니지드=관리형 서비스로 운영 부담을 위임, 서버리스=요청 단위 과금으로 유휴 비용을 없앰. 온프렘 회귀 판정의 앞단에서 현행 유지가 기본값인 자산 유형 |
@@ -83,6 +87,7 @@
 - **과업 기반 분류**(§4.2) — 직무→과업→활동으로 분해한 뒤 목적을 먼저 정의하고, 각 활동을 자동화·증강·사람 전담(Human-only) 영역으로 나누는 접근. 자동화/증강 구분은 위 Anthropic Economic Index 등 실증과 맞닿아 있습니다. 본 가이드는 이를 일반 개념으로 반영하며, 분류가 기존 사고 틀에 갇히는 한계도 함께 짚습니다.
 - **시장 신호: 프로덕션 AI의 프라이빗 클라우드 이동**(§7.1) — Broadcom, *Private Cloud Outlook 2026*(2회차 연례 조사). 응답 기업의 56%가 프로덕션 AI 추론을 프라이빗 클라우드에서 운영 중이거나 계획 중이라고 답했고, AI가 IT에 새로 부과하는 최대 요구로 데이터 보호·프라이버시(37%)와 보안·통제(36%)를 꼽았으며, 퍼블릭 클라우드의 1순위 우려가 보안에서 비용으로 바뀌었다고 보고합니다. 검증·확장 단계에서 데이터 주권·비용·통제 압력이 커진다는 본 가이드 §7.1의 논지와 같은 방향을 가리키는 외부 신호입니다. 다만 벤더가 발간한 설문이므로 절대 수치보다 방향성의 참고 자료로 보시기 바랍니다. (원문: [Understand what's driving shifts in AI demands](https://www.linkedin.com/pulse/understand-whats-driving-shifts-ai-demands-vmware-1odje/))
 - **업계 관점: 외주(FDE)에서 내부 AI Engineer로**(§5.8) — Andrew Ng, *Forward Deployed Engineers and the Future of AI Engineering*, The Batch / Letters from Andrew Ng(2026-05-29). 고객사에 상주하며 솔루션을 맞춤·정착시키는 Forward Deployed Engineer(FDE)가 부상하고 있으나, 기업은 소수의 외부 FDE보다 자기 조직에서 AI를 만들고 운영할 인력(AI Engineer)을 훨씬 더 많이 필요로 하고, 한 벤더에 깊게 묶이면 선택지(optionality)를 잃기 때문에 AI Engineer 수요가 더 커진다는 논지입니다. AI Engineer 역할이 LLMOps·Evals·AI Data·Harness 엔지니어 등으로 분화하리라는 전망도 함께 제시합니다. 외주로 시작하되 내부 운영 역량과 벤더 선택지를 종착점으로 둔다는 본 가이드 §5.8과 같은 방향의 외부 근거입니다. 다만 (가) 수요 차이는 "훨씬 많다"는 정성적 표현이며 배수·수치로 제시되지 않았고, (나) 원문은 FDE를 부정하지 않고 FDE와 AI Engineer를 모두 새로 생기는 일자리로 보며(외주의 깊은 통합은 도입 속도·완성도에서 단기 이점), (다) 선택지 보존에는 추상화·운영 비용과 벤더 고유 기능 포기라는 트레이드오프가 따른다는 점을 함께 보시기 바랍니다. (원문: [Forward Deployed Engineers and the Future of AI Engineering](https://www.deeplearning.ai/the-batch/forward-deployed-engineers-and-the-future-of-ai-engineering))
+- **에이전트 거버넌스: 실패 예측과 보안 리스트**(§10.3) — Gartner는 에이전틱 AI 프로젝트의 40% 이상이 2027년 말까지 취소될 것으로 예측했습니다(2025-06 보도자료; 사유는 비용 증가·불명확한 사업 가치·리스크 통제 부재). 실측이 아닌 예측치이고 표본도 자사 웨비나 참석자라는 한계가 있으나, 실패 원인을 기술이 아니라 거버넌스에서 찾는다는 점에서 §10.3과 같은 방향입니다. OWASP는 LLM 애플리케이션 Top 10(2026)에서 과잉 권한(Excessive Agency)을 상위 리스크로 올렸고, 별도의 에이전틱 애플리케이션 Top 10(2026)에서 신원·권한 남용과 인간-에이전트 신뢰 악용을 주요 항목으로 다뤘습니다 — 에이전트별 고유 신원·최소 권한·민감 행위 확인이라는 §10.3의 통제와 같은 결입니다. (원문: [Gartner 보도자료](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027) · [OWASP GenAI Security Project](https://genai.owasp.org/))
 - **법정 의무: 한국 AI 기본법**(§5.5·워크시트 B-0) — 「인공지능 발전과 신뢰 기반 조성 등에 관한 기본법」, 2026-01-22 법·시행령 동시 시행. 고영향 AI 사업자에게 위험관리방안·설명 방안·사람의 관리·감독·문서 작성 의무를, 고영향·생성형 AI에 이용 사실 고지·생성물 표시 의무를 부과하며, 시행 후 최소 1년의 계도기간을 운영합니다. 본 가이드의 비례적 거버넌스·휴먼인더루프·게이트 기록이 이 법정 의무와 같은 방향이므로, 별도 대응 체계 없이 기존 게이트에 접속시키는 것이 합리적입니다. (원문: [법제처 국가법령정보센터](https://www.law.go.kr/lsSc.do?query=인공지능+발전과+신뢰+기반+조성) — 법령명으로 검색, 적용 전 시행령·고시 최신본 확인)
 - **업계 프레임워크: Platform Engineering 2.0**(§6·§6.7) — Broadcom · PlatformEngineering.org 공동 백서, *Platform Engineering 2.0: An Evolution for the AI Era*. 개발자 중심의 기존 플랫폼(Platform Engineering 1.0)이 AI 네이티브 플랫폼·다중 페르소나·내장 FinOps·보안 기층화·컴포저블(조합형) 아키텍처의 다섯 축으로 확장되어야 한다는 프레임워크로, 06의 진화형 아키텍처(§6.2)·골든 패스(§6.3)·비용 규율(§6.7) 논지와 같은 방향입니다. 백서가 인용한 두 제3자 통계는 1차 출처로 직접 확인했습니다 — 조직의 90%가 하나 이상의 (내부 개발자) 플랫폼을 도입(Google DORA, [2025 State of AI-assisted Software Development](https://dora.dev/dora-report-2025/)), 기업이 평균적으로 필요량보다 약 35% 더 많은 클라우드 자원에 지출(KPMG, [As cloud over-spending rises, look to cost optimization](https://kpmg.com/xx/en/our-insights/transformation/cloud-cost-optimization.html)). 후자는 '지출의 35%가 낭비'가 아니라 '필요량 대비 약 35% 초과 지출'이라는 점에 유의해 §6.7에 그대로 반영했습니다. (백서 원문: [The Time for Platform Engineering 2.0 Is Now](https://www.linkedin.com/pulse/time-platform-engineering-20-now-vmwarevcf-m3yfc/))
 - Private AI 구현의 구체 경로는 다음 시리즈를 참조하시기 바랍니다.
@@ -91,4 +96,4 @@
 
 ---
 
-[← 상위 README](../README.md) · [09 브라운필드 AX](../docs/09-brownfield-assessment.md)
+[← 상위 README](../README.md) · [← 이전: 10 AI 거버넌스](../docs/10-governance.md)

@@ -132,4 +132,4 @@ S3에서 옵션을 둘 이상 비교하는 것이 중요합니다. 단일 TO-BE 
 
 ---
 
-[← 이전: 08 실행 로드맵과 측정](08-roadmap.md) · [목차](../README.md) · [다음: A1 용어집·FAQ·참고 →](../appendix/A1-appendix.md)
+[← 이전: 08 실행 로드맵과 측정](08-roadmap.md) · [목차](../README.md) · [다음: 10 AI 거버넌스 →](10-governance.md)
