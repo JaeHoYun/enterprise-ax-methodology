@@ -1,6 +1,6 @@
 # 08 — 실행 로드맵과 측정
 
-> 진단([01](01-diagnosis.md)·[02](02-maturity.md)) → 대안([03](03-alternative.md)–[05](05-operating-model.md)) → 구현([06](07-private-ai-strategy.md))을 시간축의 실행 계획으로 묶습니다.
+> 진단([01](01-diagnosis.md)·[02](02-maturity.md)) → 대안([03](03-alternative.md)–[05](05-operating-model.md)) → 구현([06](06-enterprise-scale.md)–[07](07-private-ai-strategy.md))을 시간축의 실행 계획으로 묶습니다.
 
 이 문서는 어디서부터 시작해 무엇을 측정하며 어떻게 다음 단계로 넘어갈지를 정리합니다. 날짜는 예시이며, 자사 성숙도([문서 02](02-maturity.md))에 맞춰 조정합니다.
 
