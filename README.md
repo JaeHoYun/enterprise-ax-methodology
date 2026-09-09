@@ -10,7 +10,7 @@ DX를 흉내 낸 어설픈 AX는 효과 없이 예산만 태웁니다. 이 가�
 
 DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지만, AX의 대상은 확률론적(맥락에 따라 출력이 달라지는 AI)입니다. 성격이 다른 대상에 같은 방법론을 적용하면 도구는 도입됐는데 가치는 나오지 않는 전형적 실패로 이어집니다. 그래서 이 가이드는 빅뱅이 아니라 점진적 확장, 확정이 아니라 학습, 도구가 아니라 역량을 일관되게 주장합니다.
 
-가이드는 **진단 → 대안 → 구현**의 3부에, 이미 AI를 쓰는 조직을 위한 **진입로·통제**(09·10)를 더해 구성됩니다.
+가이드는 **진단 → 대안 → 구현**의 3부에, 이미 AI를 쓰는 조직을 위한 **진입로와 통제**(09, 10)를 더해 구성됩니다.
 
 | 부 | 묻는 질문 |
 |----|-----------|
@@ -25,17 +25,17 @@ DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지�
 | 00 | [오리엔테이션](docs/00-orientation.md) | AX의 계보, 문제의식, 가이드의 입장과 구조 |
 | 01 | [진단① — DX 답습형 AX는 왜 실패하는가](docs/01-diagnosis.md) | DX와 AX의 본질 차이, 실패 안티패턴 10종 카탈로그, 근본 원인 |
 | 02 | [진단② — AX 성숙도 자가진단](docs/02-maturity.md) | 6차원 × 5단계 성숙도 모델, 자가진단법, 흔한 오진 |
-| 03 | [대안 — 증거 기반 점진적 AX](docs/03-alternative.md) | 6대 원칙(use-case-back·thin-slice·게이트·two-way-door·플라이휠·platform-pull), 실행 루프 |
-| 04 | [유스케이스 발굴·우선순위·가치 가설](docs/04-portfolio.md) | 발굴법, 가치 가설 캔버스, 우선순위 매트릭스, 확률적 성과의 가치 평가, 포트폴리오, 투자 케이스(가치를 비용에 잇기) |
-| 05 | [운영모델·조직·거버넌스](docs/05-operating-model.md) | 중앙·연합·분산 운영모델, 역할, 인재·채택 설계, 비례적 거버넌스 |
-| 06 | [전사 확장 — 규모의 아키텍처와 거버넌스](docs/06-enterprise-scale.md) | 확장 전환 신호, 진화형 아키텍처(퇴적층), 골든 패스, 데이터·지식, 거버넌스·FinOps·신뢰성, 확장기 함정 |
-| 07 | [Private AI로 AX 갖추기](docs/07-private-ai-strategy.md) | 왜·언제 Private AI인가, 단계적 전환, 빌딩블록, platform-pull과 도입 타이밍 |
+| 03 | [대안 — 증거 기반 점진적 AX](docs/03-alternative.md) | 6대 원칙(use-case-back, thin-slice, 게이트, two-way-door, 플라이휠, platform-pull), 실행 루프 |
+| 04 | [유스케이스 발굴, 우선순위, 가치 가설](docs/04-portfolio.md) | 발굴법, 가치 가설 캔버스, 우선순위 매트릭스, 확률적 성과의 가치 평가, 포트폴리오, 투자 케이스(가치를 비용에 잇기) |
+| 05 | [운영모델, 조직, 거버넌스](docs/05-operating-model.md) | 중앙, 연합, 분산 운영모델, 역할, 인재와 채택 설계, 비례적 거버넌스 |
+| 06 | [전사 확장 — 규모의 아키텍처와 거버넌스](docs/06-enterprise-scale.md) | 확장 전환 신호, 진화형 아키텍처(퇴적층), 골든 패스, 데이터와 지식, 거버넌스, FinOps, 신뢰성, 확장기 함정 |
+| 07 | [Private AI로 AX 갖추기](docs/07-private-ai-strategy.md) | 왜, 언제 Private AI인가, 단계적 전환, 빌딩블록, platform-pull과 도입 타이밍 |
 | 08 | [실행 로드맵과 측정](docs/08-roadmap.md) | 시간축 로드맵, 4층 측정 체계, 가치 실현 보고, 실패 회피 체크리스트 |
 | 09 | [브라운필드 AX — 현황 진단과 전환 착수](docs/09-brownfield-assessment.md) | 두 진입로, 진단 7도메인, 퍼블릭→프라이빗 온프렘 회귀 판정, 종합 개선안 보고서, 전환 차터 |
-| 10 | [AI 거버넌스 — 영역별 통제 맵과 규제 연계](docs/10-governance.md) | 모델·데이터·인프라·보안·에이전트 영역별 통제, 에이전트 거버넌스(자율성·신원·레지스트리), 법정 의무·표준 연계 |
-| A1 | [용어집·FAQ·참고](appendix/A1-appendix.md) | 핵심 용어, 자주 묻는 질문, 참고 자료 |
-| A2 | [한국 규제·정책 타임라인](appendix/A2-kr-regulatory-timeline.md) | AI 기본법·망분리 완화·공공 인증 개편·EU AI Act 등 의사결정에 영향을 주는 일정(작성 시점 기준) |
-| 워크시트 | [채워넣기 워크시트](worksheet/README.md) | 성숙도·캔버스·투자 케이스·파일럿 게이트·확장 준비도 + 브라운필드 진단(인벤토리·갭·처분·보고서·차터) |
+| 10 | [AI 거버넌스 — 영역별 통제 맵과 규제 연계](docs/10-governance.md) | 모델, 데이터, 인프라, 보안, 에이전트 영역별 통제, 에이전트 거버넌스(자율성, 신원, 레지스트리), 법정 의무와 표준 연계 |
+| A1 | [용어집, FAQ, 참고](appendix/A1-appendix.md) | 핵심 용어, 자주 묻는 질문, 참고 자료 |
+| A2 | [한국 규제와 정책 타임라인](appendix/A2-kr-regulatory-timeline.md) | AI 기본법, 망분리 완화, 공공 인증 개편, EU AI Act 등 의사결정에 영향을 주는 일정(작성 시점 기준) |
+| 워크시트 | [채워넣기 워크시트](worksheet/README.md) | 성숙도, 캔버스, 투자 케이스, 파일럿 게이트, 확장 준비도 + 브라운필드 진단(인벤토리, 갭, 처분, 보고서, 차터) |
 
 ## 빠른 시작
 
@@ -43,26 +43,26 @@ DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지�
 - **"우리 조직은 지금 어디쯤인가"** → [02](docs/02-maturity.md) + [성숙도 워크시트](worksheet/maturity-self-assessment.md)
 - **"그래서 어떻게 다르게 하나"** → [03](docs/03-alternative.md)
 - **"무엇부터 할지, 어떻게 고를지"** → [04](docs/04-portfolio.md) + [유스케이스 캔버스](worksheet/use-case-canvas.md)
-- **"가치와 비용을 이어 투자 결재로 올리려면"** → [04 §4.8](docs/04-portfolio.md) + [투자 케이스 워크시트](worksheet/investment-case.md)
-- **"조직·거버넌스는 어떻게"** → [05](docs/05-operating-model.md)
+- **"가치와 비용을 이어 투자 결재로 올리려면"** → [04 4.8절](docs/04-portfolio.md) + [투자 케이스 워크시트](worksheet/investment-case.md)
+- **"조직과 거버넌스는 어떻게"** → [05](docs/05-operating-model.md)
 - **"전사로 확장할 때 무엇을 고려하나"** → [06](docs/06-enterprise-scale.md)
 - **"이걸 사내 AI로 어떻게 갖추나"** → [07](docs/07-private-ai-strategy.md)
-- **"90일·1년 실행 계획과 측정은"** → [08](docs/08-roadmap.md)
+- **"90일, 1년 실행 계획과 측정은"** → [08](docs/08-roadmap.md)
 - **"이미 AI를 쓰고 있는데, 현황 진단부터 하려면"** → [09](docs/09-brownfield-assessment.md) + [브라운필드 워크시트](worksheet/README.md)
-- **"거버넌스는 무엇을 통제해야 하고, 규제에는 어떻게 대응하나"** → [10](docs/10-governance.md) + [거버넌스·주권 갭 워크시트](worksheet/governance-sovereignty-gap.md)
-- **임원이라면** → [00](docs/00-orientation.md) · [01](docs/01-diagnosis.md) · [03](docs/03-alternative.md) · [06](docs/06-enterprise-scale.md) · [07](docs/07-private-ai-strategy.md) · [10](docs/10-governance.md)
+- **"거버넌스는 무엇을 통제해야 하고, 규제에는 어떻게 대응하나"** → [10](docs/10-governance.md) + [거버넌스와 주권 갭 워크시트](worksheet/governance-sovereignty-gap.md)
+- **임원이라면** → [00](docs/00-orientation.md) | [01](docs/01-diagnosis.md) | [03](docs/03-alternative.md) | [06](docs/06-enterprise-scale.md) | [07](docs/07-private-ai-strategy.md) | [10](docs/10-governance.md)
 
 ## 관련 가이드 — Private AI 구현
 
-이 방법론으로 검증된 유스케이스를 사내에서 실제로 운영할 단계가 되면, 데이터 주권·규제·비용 때문에 Private AI 기반이 필요해집니다. 그 구체 구현 경로의 한 갈래로 다음 시리즈를 참조하세요.
+이 방법론으로 검증된 유스케이스를 사내에서 실제로 운영할 단계가 되면, 데이터 주권, 규제, 비용 때문에 Private AI 기반이 필요해집니다. 그 구체 구현 경로의 한 갈래로 다음 시리즈를 참조하세요.
 
-- [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai) — 인프라·데이터·서빙·RAG·보안·사이징·설계 7부작, 그 위에 [에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-agents)
+- [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai) — 인프라, 데이터, 서빙, RAG, 보안, 사이징, 설계 7부작, 그 위에 [에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-agents)
 
 ## 주요 용어
 
 | 용어 | 설명 |
 |------|------|
-| **AX** | AI Transformation — AI로 업무 판단·실행을 증강·위임하는 전환 |
+| **AX** | AI Transformation — AI로 업무 판단과 실행을 증강하거나 위임하는 전환 |
 | **Use-case-back** | 기술이 아니라 구체적 업무 페인에서 역산하는 원칙 |
 | **Thin-slice** | 한 업무를 끝에서 끝까지 작게 관통하는 얇은 수직 단면 파일럿 |
 | **게이트** | 파일럿을 사전 기준으로 확장/중단 판정하는 관문 |
@@ -89,8 +89,8 @@ DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지�
 
 ## 면책 조항
 
-**비공식 문서** — 이 가이드는 컨설팅·전환 관리 실무 경험을 정리한 비공식 방법론 문서이며, 특정 벤더의 공식 입장을 대변하지 않습니다.
+**비공식 문서** — 이 가이드는 컨설팅과 전환 관리 실무 경험을 정리한 비공식 방법론 문서이며, 특정 벤더의 공식 입장을 대변하지 않습니다.
 
-**정확성 및 적용** — 본문의 단계·수치·기간은 예시이며 조직·환경에 따라 크게 달라집니다. 적용 전 자사 상황에서의 검증이 필요합니다. 본 문서를 참고하여 발생한 직접적·간접적 손해에 대해 작성자는 책임을 지지 않습니다.
+**정확성 및 적용** — 본문의 단계, 수치, 기간은 예시이며 조직, 환경에 따라 크게 달라집니다. 적용 전 자사 상황에서의 검증이 필요합니다. 본 문서를 참고하여 발생한 직접적, 간접적 손해에 대해 작성자는 책임을 지지 않습니다.
 
-**상표권 고지** — VMware, VMware Cloud Foundation, Private AI Foundation 등은 Broadcom의 상표이며, NVIDIA 관련 명칭은 NVIDIA Corporation의 상표입니다. 기타 언급된 제품명·회사명은 각 소유자의 상표입니다.
+**상표권 고지** — VMware, VMware Cloud Foundation, Private AI Foundation 등은 Broadcom의 상표이며, NVIDIA 관련 명칭은 NVIDIA Corporation의 상표입니다. 기타 언급된 제품명과 회사명은 각 소유자의 상표입니다.
