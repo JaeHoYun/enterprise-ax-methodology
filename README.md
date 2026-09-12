@@ -56,7 +56,7 @@ DX의 대상은 결정론적(규칙이 분명한 업무의 디지털화)이지�
 
 이 방법론으로 검증된 유스케이스를 사내에서 실제로 운영할 단계가 되면, 데이터 주권, 규제, 비용 때문에 Private AI 기반이 필요해집니다. 그 구체 구현 경로의 한 갈래로 다음 시리즈를 참조하세요.
 
-- [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai) — 인프라, 데이터, 서빙, RAG, 보안, 사이징, 설계 7부작, 그 위에 [에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-agents)
+- [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai) — 인프라, 데이터, 서빙, RAG, 보안, 사이징, 설계 7부작, 그 위에 [앱과 에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-apps)
 
 ## 주요 용어
 
