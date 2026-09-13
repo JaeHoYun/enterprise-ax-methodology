@@ -72,7 +72,7 @@ Private AI는 단일 제품이 아니라 여러 계층의 조합입니다. 벤�
 | 에이전트와 도구 연동 | 모델이 사내 시스템과 일하게 함 | [① 인프라와 운영](https://github.com/JaeHoYun/vcf-private-ai/tree/main/01-infra) |
 | 보안과 거버넌스 | 격리, 접근통제, 감사, 데이터 거버넌스 | [⑤ 보안과 거버넌스](https://github.com/JaeHoYun/vcf-private-ai/tree/main/05-security) |
 
-이 계층들을 하나의 통합 플랫폼으로 제공하는 구체적 경로의 한 예가 VMware Cloud Foundation 기반 Private AI(PAIF/PAIS)이며, 위 시리즈가 인프라부터 보안과 비용까지 계층별로 다룹니다. 전체 구성은 [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai)에서 확인할 수 있습니다. 방법론 관점에서 중요한 것은 특정 제품이 아니라, **이 계층들을 한꺼번에 다 갖추려 들지 말고 수요가 증명된 순서로 채워 가는 것**입니다.
+이 계층들을 하나의 통합 플랫폼으로 제공하는 구체적 경로의 한 예가 VMware Cloud Foundation 기반 Private AI 솔루션인 PAIF(Private AI Foundation with NVIDIA)와, 그 안에서 모델 서빙, RAG, 에이전트를 관리형으로 제공하는 서비스 계층인 PAIS(Private AI Services)이며, 위 시리즈가 인프라부터 보안과 비용까지 계층별로 다룹니다. 전체 구성은 [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai)에서 확인할 수 있습니다. 방법론 관점에서 중요한 것은 특정 제품이 아니라, **이 계층들을 한꺼번에 다 갖추려 들지 말고 수요가 증명된 순서로 채워 가는 것**입니다.
 
 ## 7.5 플랫폼 공통화와 Private AI 도입 타이밍
 
@@ -95,9 +95,9 @@ Private AI는 단일 제품이 아니라 여러 계층의 조합입니다. 벤�
 
 외부 API로만 실험하고 자산을 남기지 않으면, 막상 Private로 옮길 때 처음부터 다시 시작하게 됩니다. 그래서 외부에서 파일럿하더라도 **재사용 가능한 형태로 자산을 남기는 것**이 전환 비용을 결정합니다.
 
-## 7.7 Private AI를 또 다른 빅뱅으로 만들지 말 것
+## 7.7 Private AI 도입이 또 다른 빅뱅이 되지 않게 하는 원칙
 
-가장 흔한 함정은 "이제 Private AI를 한다"가 다시 전사 빅뱅 플랫폼 구축으로 변질되는 것입니다. Private AI 자체가 목표가 되면 [문서 01](01-diagnosis.md)의 빅뱅 안티패턴으로 되돌아갑니다.
+가장 흔한 실수는 "이제 Private AI를 한다"가 다시 전사 빅뱅 플랫폼 구축으로 변질되는 것입니다. Private AI 자체가 목표가 되면 [문서 01](01-diagnosis.md)의 빅뱅 안티패턴으로 되돌아갑니다.
 
 원칙은 동일하게 유지해야 합니다.
 
