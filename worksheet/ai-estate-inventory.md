@@ -172,10 +172,10 @@
 
 ---
 
-채우는 일이 정리와 전환의 시작입니다. 다만 이 표를 다 채웠다고 곧장 전사 청사진을 그리는 것은 아닙니다. 온프렘 회귀, 통합, 폐기는 여기 모인 근거 위에서, 검증된 수요가 당길 때 한 자산씩 진화형으로 진행합니다. 빅뱅으로 한 번에 갈아엎는 방식은 이 트랙이 피하려는 바로 그 함정입니다([문서 01 — 진단①: DX 답습형 AX는 왜 실패하는가](../docs/01-diagnosis.md) 참조). 구체적인 마이그레이션과 통합 실행은 벤더 중립 진단을 마친 뒤 [VCF Private AI 시리즈](https://github.com/JaeHoYun/vcf-private-ai)로 위임하며, 이 인벤토리 자체는 어떤 구현을 택하든 성립합니다.
+채우는 일이 정리와 전환의 시작입니다. 다만 이 표를 다 채웠다고 곧장 전사 청사진을 그리는 것은 아닙니다. 온프렘 회귀, 통합, 폐기는 여기 모인 근거 위에서, 검증된 수요가 확인될 때 한 자산씩 진화형으로 진행합니다. 빅뱅으로 한 번에 갈아엎는 방식은 이 트랙이 피하려는 바로 그 실수입니다([문서 01 — 진단①: DX 답습형 AX는 왜 실패하는가](../docs/01-diagnosis.md) 참조). 구체적인 마이그레이션과 통합 실행은 벤더 중립 진단을 마친 뒤 [VCF Private AI 시리즈](https://github.com/JaeHoYun/vcf-private-ai)로 위임하며, 이 인벤토리 자체는 어떤 구현을 택하든 성립합니다.
 
 ---
 
-**다음 단계 참조** — [문서 01 — 진단①: DX 답습형 AX는 왜 실패하는가](../docs/01-diagnosis.md)(빅뱅 안티패턴), [문서 02 — 진단②: AX 성숙도 자가진단](../docs/02-maturity.md)(레벨 판정의 증거로 사용), [문서 03 — 대안: 증거 기반 점진적 AX](../docs/03-alternative.md)(점진적 원칙), [문서 07 — Private AI로 AX 갖추기](../docs/07-private-ai-strategy.md), [문서 08 — 실행 로드맵과 측정](../docs/08-roadmap.md), [부록 A1 — 용어집, FAQ, 참고](../appendix/A1-appendix.md)
+**다음 단계 참조** — [문서 01 — 진단①: DX 답습형 AX는 왜 실패하는가](../docs/01-diagnosis.md)(빅뱅 안티패턴), [문서 02 — 진단②: AX 성숙도 자가진단](../docs/02-maturity.md)(레벨 판정의 증거로 사용), [문서 03 — 대안: 증거 기반 점진적 AX](../docs/03-alternative.md)(점진적 원칙), [문서 07 — Private AI로 AX 갖추기](../docs/07-private-ai-strategy.md), [문서 08 — 실행 로드맵과 측정](../docs/08-roadmap.md), [부록 A1 — FAQ, 참고](../appendix/A1-appendix.md)
 
 **내비게이션** — [← 워크시트 목록](README.md) | [전방 준비도 양식: scale-readiness.md](scale-readiness.md)

@@ -108,7 +108,7 @@
 판정 메모:
 
 - **한 자산은 주된 누수 축 1개로 귀속:** 한 자산이 여러 축(예: 가동률 + 약정 미소진 + 중복)에서 동시에 후보로 잡힐 수 있습니다. 이 표에는 가장 큰 누수 축 하나로만 한 행을 적어, 같은 자산이 여러 누수 축으로 중복 계상되지 않게 합니다. 나머지 축은 핵심 증거 칸에 보조로 인용합니다.
-- **회수(reclaim)는 빅뱅이 아니다:** 한 자산의 회수도 인벤토리, 실측, 검증된 수요로 당겨질 때 진행합니다. "안 쓰는 것 같으니 일괄 회수"는 금지이며, 수요가 확인되지 않은 자산만 후보입니다.
+- **회수(reclaim)는 빅뱅이 아니다:** 한 자산의 회수도 인벤토리, 실측, 검증된 수요로 근거가 확인될 때 진행합니다. "안 쓰는 것 같으니 일괄 회수"는 금지이며, 수요가 확인되지 않은 자산만 후보입니다.
 - **정량 확정은 외부 위임:** 회수와 통합으로 얼마를 아끼는지의 금액 산정과 전환 후 사이징은 [⑥ 사이징과 비용](https://github.com/JaeHoYun/vcf-private-ai/tree/main/06-sizing-cost)으로 넘깁니다. 이 양식은 "무엇이 후보인가"까지만 책임집니다.
 - **벤더 중립:** 이 진단은 특정 플랫폼 채택과 무관하게 성립합니다. 구체 구현(마이그레이션과 통합 실행)만 외부 Private AI 시리즈로 위임합니다.
 
@@ -123,5 +123,5 @@
 - 전사 확장: [`06-enterprise-scale.md`](../docs/06-enterprise-scale.md)
 - Private AI 전략과 위임: [`07-private-ai-strategy.md`](../docs/07-private-ai-strategy.md)
 - 전환 로드맵: [`08-roadmap.md`](../docs/08-roadmap.md)
-- 용어집: [`../appendix/A1-appendix.md`](../appendix/A1-appendix.md)
+- FAQ와 참고: [`../appendix/A1-appendix.md`](../appendix/A1-appendix.md)
 - 전방용 비교 양식: [`scale-readiness.md`](scale-readiness.md)

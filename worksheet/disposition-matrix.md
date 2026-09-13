@@ -110,4 +110,4 @@
 - 온프렘 회귀, 통합, 재구성으로 분류된 자산 중 검증된 수요가 받쳐주는 항목은 보고서 **S7**(로드맵과 전환 프로젝트 차터) 1차 단계의 초기 대상 목록이 됩니다.
 - 결정 신뢰도 '하'인 행은 S4에서 별도의 추가 실측 과제로 분리해(선행 의존 칸에 "추가 실측" 명시), 근거가 갖춰진 뒤 재판정합니다.
 
-관련 문서: [문서 09 — 브라운필드 평가](../docs/09-brownfield-assessment.md) | [문서 07 — Private AI 전략](../docs/07-private-ai-strategy.md) | [용어집](../appendix/A1-appendix.md)
+관련 문서: [문서 09 — 브라운필드 평가](../docs/09-brownfield-assessment.md) | [문서 07 — Private AI 전략](../docs/07-private-ai-strategy.md) | [FAQ와 참고](../appendix/A1-appendix.md)
