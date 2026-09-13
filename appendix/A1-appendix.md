@@ -1,65 +1,13 @@
-# A1 — 용어집, FAQ, 참고
+# A1 — FAQ, 참고
 
-> 본문에서 쓰인 개념과 자주 묻는 질문, 참고 자료를 모았습니다.
+> 자주 묻는 질문과 참고 자료를 모았습니다. 용어는 각 문서에서 처음 나오는 절에서 정의합니다.
 
 ---
-
-## A1.1 용어집
-
-| 용어 | 설명 |
-|------|------|
-| **AX (AI Transformation)** | AI로 업무의 판단과 실행을 증강하거나 위임하는 전환. DX의 계보를 잇는 용어 |
-| **DX (Digital Transformation)** | 아날로그와 수작업 프로세스를 디지털로 옮기는 전환 |
-| **점진적 AX (증거 기반)** | 빅뱅 전사 전환의 반대. 작은 단위로 시작해 검증된 것만 의사결정을 거쳐 확장하는 방식. '천천히'가 아니라 '검증 후 확장'을 뜻함 |
-| **업무 문제에서 역산 (use-case-back)** | 기술이 아니라 구체적 업무 페인에서 출발해 유스케이스를 정하고 필요한 기술을 거꾸로 짚는 원칙 |
-| **최소 관통 파일럿 (thin slice)** | 한 업무의 끝에서 끝까지를 관통하되 사용자, 데이터, 흐름의 범위는 최소로 좁힌 파일럿 |
-| **가치 가설** | 누가, 어떤 업무에서, 무엇이 얼마나 좋아질지와 성공/중단 기준을 사전에 적은 검증 가능한 가정 |
-| **게이트 (kill/scale gate)** | 파일럿 결과를 사전 정의된 기준으로 확장(scale)/중단(kill) 판정하는 관문 |
-| **결정의 되돌림 가능성 구분 (two-way door)** | 되돌릴 수 있는 결정은 빠르게 내려 실험으로 검증하고, 되돌리기 어려운 결정은 증거 축적 후 내리는 구분. 아마존의 의사결정 유형 구분에서 온 비유 |
-| **PoC 무덤 (pilot purgatory)** | 시범 과제는 계속 만들어지나 프로덕션으로 넘어가지 못하는 상태 |
-| **역량 플라이휠** | 파일럿마다 재사용 자산(평가셋, 파이프라인, 가드레일, 플랫폼 부품)을 축적해 다음 시도를 더 싸게 만드는 선순환 |
-| **수요 확인 후 플랫폼 구축 (platform-pull)** | 전사 플랫폼을 미리 깔지 않고, 파일럿들의 공통 수요가 드러날 때 그 공통분모를 플랫폼으로 공통화하는 원칙 |
-| **과업 분해** | 직무를 과업과 활동으로 쪼갠 뒤 목적을 먼저 정의하고, 각 활동을 자동화, 증강, 사람 전담(Human-only) 영역으로 분류하는 접근 |
-| **심리적 안전감** | 처벌과 창피를 두려워하지 않고 아이디어, 질문, 우려, 실수를 말할 수 있다는 믿음(에드먼슨). 편안함이 아니라 "할 말 할 수 있음" |
-| **could vs actual** | AI가 "할 수 있는"(could) 것과 "실제로 가치 있게 쓰이는"(actual) 것의 구분. 가능성이 곧 채택을 뜻하지 않음 |
-| **허영 지표 (vanity metric)** | 투입 인력, 서비스 수, 신설 조직 규모처럼 "바빴음"만 보여줄 뿐 사업 변화를 말하지 못하는 활동 지표. 성과는 핵심 사업 지표 변화로 본다 |
-| **조직 재정렬 (redirect)** | 비대해진 AX 조직을 해체하지 않고 미션(공장→조력자), 성과(산출물→결과), 포트폴리오(토이→핵심)를 다시 맞추는 것 |
-| **옵션 가치** | 지금은 작아도 성공 시 큰 확장으로 이어지는 시도의 가치. 파일럿은 작은 비용으로 큰 가능성을 사 두는 옵션 |
-| **성숙도 모델** | AX 역량을 여섯 차원과 다섯 단계로 진단하는 틀 |
-| **CoE (Center of Excellence)** | AX 역량을 결집해 포트폴리오, 표준, 게이트를 운영하는 추진 조직 |
-| **현업 프로덕트 오너** | 유스케이스의 가치와 채택에 책임지는 현업 측 주인 |
-| **비례적 거버넌스** | 위험 등급에 따라 통제의 무게를 달리하는 거버넌스 |
-| **휴먼인더루프 (HITL)** | 중요한 결정에 사람의 확인과 승인을 두는 안전 장치 |
-| **Private AI** | 사내에서, 데이터가 조직 경계를 벗어나지 않은 채 운영하는 AI |
-| **퇴적층(strata) 아키텍처** | 전사 아키텍처를 한 번에 그리지 않고 검증된 공통 수요만 한 켜씩 토대로 가라앉혀 쌓는 진화형 관점. 위층일수록 자주 바뀌고 아래층일수록 느리게 변함 |
-| **골든 패스(golden path)** | 검증된 공통 부품을 조립해 가장 쉽고 안전하게 가도록 닦아 둔 권장 경로. 강제가 아니라 가장 쉬운 길로 만들어 자발 채택을 유도 |
-| **데이터 청지기 책임(data stewardship)** | 데이터, 지식 자산의 품질, 권한, 수명을 누가 책임지는지를 명확히 하는 연합형 분담. 현업 가까운 주체가 책임지고 공통 계층은 표준과 도구만 제공 |
-| **FinOps** | 클라우드와 AI 운영비를 가시화하고 가치에 견주어 관리하는 재무 운영 규율. 단가를 의사결정 루프에 환류. FinOps 재단 프레임워크는 2025년부터 SaaS, 데이터센터, AI 지출까지 관리 범위(Scopes)로 공식화 |
-| **품질 표류(quality drift)** | 입력 분포 변화와 지식 갱신으로 운영 중 출력 품질이 서서히 떨어지는 현상. 상시 측정 대상 |
-| **단계적 성능 저하(graceful degradation)** | 품질이 떨어질 때 즉시 멈추지 않고 휴먼인더루프 강화와 보수적 응답으로 안전하게 내려앉도록 설계하는 것 |
-| **그린필드/브라운필드(greenfield/brownfield)** | 그린필드=AI 자산이 거의 없는 상태에서 새로 시작 / 브라운필드=이미 자산이 광범위하게 깔린 상태에서 정리와 전환으로 진입 |
-| **온프렘 회귀(repatriation)** | 퍼블릭 클라우드로 나갔던 AI 워크로드를 온프레미스와 사내로 되돌리는 것. 지속 가동률, 회수기간, 사용 패턴, 데이터 주권으로 판정. (한국어 '회수'는 reclaim/unprovisioning으로 읽히기 쉬워 '온프렘 회귀'로 표기) |
-| **데이터 중력(data gravity)** | 데이터가 쌓일수록 옮기기 어려워지고 연산이 데이터 쪽으로 끌려오는 경향. 온프렘 회귀와 배치 결정의 한 축 |
-| **비인간 식별자(NHI, non-human identity)** | 사람이 아닌 에이전트와 서비스 계정의 신원. 권한과 추적 관리 대상이며 인간 신원 대비 수가 큼 |
-| **에이전트 레지스트리(agent registry)** | 운영 중인 에이전트의 신원(NHI), 책임자, 권한 범위, 만료, 퇴역을 관리하는 대장. 모델 카탈로그("어떤 모델을 쓸 수 있나")와 달리 "어떤 행위자가 어떤 권한으로 돌고 있고 누가 책임지나"를 담음(10.3절) |
-| **자율성 수준(autonomy level)** | 에이전트에게 맡긴 판단과 실행의 폭 — 보조 → 위임 실행 → 자율 판단. 위험 등급과 별개로 곱해지는 통제 축(10.3절) |
-| **MCP (Model Context Protocol)** | 모델과 에이전트를 도구와 데이터에 연결하는 공개 표준 프로토콜. 중립 재단(Linux Foundation 산하)이 관리 |
-| **A2A (Agent2Agent)** | 에이전트 사이의 통신과 협업을 위한 공개 표준 프로토콜. MCP가 에이전트↔도구라면 A2A는 에이전트↔에이전트를 담당 |
-| **섀도 AI(shadow AI)** | IT와 거버넌스가 존재를 모르는 채 임직원과 부서가 업무에 쓰는 AI 도구와 서비스(개인 계정 공개 챗봇, AI 내장 SaaS, 개인 결제 API 키, 미등록 에이전트, 종료 못 한 파일럿). 금지가 아니라 발견과 양성화 대상이며, 조직 안 AI 수요가 어디에 있는지 알려 주는 신호이기도 함(10.4절) |
-| **자산 처분(6R)** | 현존 자산의 처리 결정 — 잔류, 이전, 온프렘 회귀, 통합, 재구성, 폐기. 민감도, 단가, 재작성비, 종속도로 스코어링 |
-| **매니지드/서버리스(managed/serverless)** | 인프라 운영을 외부 사업자에게 맡기는 소비 형태. 매니지드=관리형 서비스로 운영 부담을 위임, 서버리스=요청 단위 과금으로 유휴 비용을 없앰. 온프렘 회귀 판정의 앞단에서 현행 유지가 기본값인 자산 유형 |
-| **MLOps(플랫폼과 파이프라인)** | 모델의 학습, 배포, 모니터링, 재학습을 표준화하고 자동화하는 운영 규율. 플랫폼=공통 토대(레지스트리, 서빙, 관측), 파이프라인=학습-배포의 반복 경로. 온프레미스 전환 시 직접 갖추는 계층 |
-| **RAG** | 검색 증강 생성. 사내 지식을 검색해 모델 응답의 근거로 제공하는 방식 |
-| **PAIF** | VMware Private AI Foundation with NVIDIA. VCF 기반 AI 인프라 계층 |
-| **PAIS** | Private AI Services. 모델 서빙, RAG, 에이전트를 관리형으로 제공하는 서비스 계층 |
-| **VCF** | VMware Cloud Foundation. 통합 프라이빗 클라우드 플랫폼 |
-| **Forward Deployed Engineer (FDE)** | 고객사에 상주하거나 파견되어 솔루션을 맞추고 정착시키는 외부 엔지니어. AX의 빠른 출발점이 될 수 있으나, 내부 역량으로 이양하지 않으면 의존으로 끝남(5.8절) |
-| **벤더 선택지(optionality)** | 특정 벤더와 모델에 묶이지 않고 더 나은 것이 나오면 갈아탈 수 있는 여지. 정의와 평가셋은 내부 자산으로 남기고 모델과 벤더 계층만 교체 가능하게 두어 지킨다(5.8절). 파일럿의 '옵션 가치'와는 다른 개념 |
 
 ## A1.2 자주 묻는 질문
 
 **Q. 전사 AX 전략과 로드맵을 먼저 그려야 하지 않나요?**
-방향성과 원칙은 정하되, 실행은 전사 빅뱅이 아니라 구체적 파일럿에서 시작합니다. 전사 로드맵을 상세히 확정한 뒤 착수하면 검증되지 않은 가설 위에 큰 계획을 세우게 됩니다. 큰 방향은 가볍게, 첫 단면은 구체적으로가 원칙입니다([문서 03](../docs/03-alternative.md)).
+방향성과 원칙은 정하되, 실행은 전사 빅뱅이 아니라 구체적 파일럿에서 시작합니다. 전사 로드맵을 상세히 확정한 뒤 착수하면 검증되지 않은 가설 위에 큰 계획을 세우게 됩니다. 큰 방향은 가볍게, 첫 파일럿은 구체적으로가 원칙입니다([문서 03](../docs/03-alternative.md)).
 
 **Q. 빠른 파일럿만 반복하면 전사 차원의 큰 가치는 못 얻는 것 아닌가요?**
 점진적 확장은 작게 머무르는 것이 아닙니다. 검증된 것을 의사결정을 거쳐 확장하고, 공통 수요를 플랫폼으로 공통화해 규모를 키웁니다. 차이는 "검증 전에 크게"가 아니라 "검증 후에 크게"라는 순서입니다([문서 08](../docs/08-roadmap.md)).
@@ -71,7 +19,7 @@
 아닙니다. 민감 데이터가 없으면 외부 환경에서 빠르게 검증하고, 데이터 주권, 규제, 단가, 지연 임계가 확실해지는 유스케이스부터 Private AI로 전환합니다([문서 07](../docs/07-private-ai-strategy.md)).
 
 **Q. 도구(코파일럿 등)를 도입했는데 왜 효과가 없나요?**
-도구 도입은 전환이 아닙니다. 업무 흐름 재설계, 채택 설계, 재사용 자산 축적이 없으면 라이선스 가동률만 낮습니다([문서 01](../docs/01-diagnosis.md), [문서 05](../docs/05-operating-model.md)).
+도구 도입은 전환이 아닙니다. 업무 흐름 재설계, 사용 정착 설계, 재사용 자산 축적이 없으면 라이선스 가동률만 낮습니다([문서 01](../docs/01-diagnosis.md), [문서 05](../docs/05-operating-model.md)).
 
 **Q. "빠르게 실패하라"는데, 실패하면 누가 책임지나요?**
 선의의 실험적 실패와 명백한 위반(윤리, 규제, 안전)은 다르게 다룹니다. 전자는 사전에 비용과 기간 상한을 둔 게이트 안에서 일어나는 정상적 학습이며, 게이트의 "중단(kill)"은 처벌이 아닙니다. 후자만 위험 등급에 따라 통제합니다. 핵심은 "사람을 탓하기"가 아니라 "문제 원인을 향하기"입니다([문서 05 5.6절](../docs/05-operating-model.md)).
@@ -95,8 +43,8 @@
 - **에이전트 거버넌스: 실패 예측과 보안 리스트**(10.3절) — Gartner는 에이전틱(agentic, 도구를 호출해 스스로 행동하는) AI 프로젝트의 40% 이상이 2027년 말까지 취소될 것으로 예측했습니다(2025-06 보도자료; 사유는 비용 증가, 불명확한 사업 가치, 리스크 통제 부재). 실측이 아닌 예측치이고 표본도 자사 웨비나 참석자라는 한계가 있으나, 실패 원인을 기술이 아니라 거버넌스에서 찾는다는 점에서 10.3절과 같은 방향입니다. OWASP는 LLM 애플리케이션 Top 10(2026)에서 과잉 권한(Excessive Agency)을 상위 리스크로 올렸고, 별도의 에이전틱 애플리케이션 Top 10(2026)에서 신원과 권한 남용과 인간-에이전트 신뢰 악용을 주요 항목으로 다뤘습니다 — 에이전트별 고유 신원, 최소 권한, 민감 행위 확인이라는 10.3절의 통제와 같은 원리입니다. (원문: [Gartner 보도자료](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027), [OWASP GenAI Security Project](https://genai.owasp.org/))
 - **섀도 AI의 규모와 비용**(10.4절) — 세 조사가 서로 다른 각도에서 같은 그림을 보여 줍니다. Microsoft와 LinkedIn의 *2024 Work Trend Index*(31개국 31,000명 설문)에서는 직장에서 AI를 쓰는 사람의 78%가 회사가 제공하지 않은 자기 도구를 가져와 쓴다고 답했습니다. PagerDuty의 섀도 AI 설문(2026-06, 미국, 영국, 호주, 일본의 사무직 1,250명)에서는 66%가 회사 정책에 어긋난다고 알면서도 AI 도구를 썼다고 답했고, AI를 업무에 써 본 응답자의 89%는 그 도구를 개인 생활에서 먼저 접했다고 답했습니다. IBM의 *2025 Cost of a Data Breach Report*(Ponemon Institute 조사, 600개 조직)는 섀도 AI가 관여한 침해가 전 세계 평균 침해 비용에 67만 달러를 더했고, 조직의 63%가 섀도 AI를 다룰 AI 거버넌스 정책이 없으며, AI 관련 보안 사고를 겪은 침해 조직의 97%가 적절한 AI 접근 통제가 없었다고 보고합니다. **주의: 모수가 전부 다릅니다** — 첫째는 'AI 사용자 중 비율', 둘째는 '사무직 응답자 중 비율', 셋째는 '침해를 겪은 조직 기준의 비용과 비율'입니다. 하나의 "섀도 AI 비율"로 합산하지 말고, 수요는 넓고 정책은 비어 있으며 비용은 실재한다는 10.4.2절 방향성의 근거로만 쓰시기 바랍니다. 셋 다 벤더가 발간한 조사라는 점도 함께 보십시오. (원문: [Microsoft 2024 Work Trend Index](https://blogs.microsoft.com/blog/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/), [PagerDuty 보도자료](https://www.pagerduty.com/newsroom/shadow-ai-workplace-survey-2026/), [IBM 2025 Cost of a Data Breach](https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai))
 - **법정 의무: 한국 AI 기본법**(5.5절과 워크시트 B-0) — 「인공지능 발전과 신뢰 기반 조성 등에 관한 기본법」, 2026-01-22 법과 시행령 동시 시행. 고영향 AI 사업자에게 위험관리방안, 설명 방안, 사람의 관리, 감독, 문서 작성 의무를, 고영향과 생성형 AI에 이용 사실 고지와 생성물 표시 의무를 부과하며, 시행 후 최소 1년의 계도기간을 운영합니다. 본 가이드의 비례적 거버넌스, 휴먼인더루프, 게이트 기록이 이 법정 의무와 같은 방향이므로, 별도 대응 체계 없이 기존 게이트에 연계하는 것이 합리적입니다. (원문: [법제처 국가법령정보센터](https://www.law.go.kr/lsSc.do?query=인공지능+발전과+신뢰+기반+조성) — 법령명으로 검색, 적용 전 시행령과 고시 최신본 확인)
-- **업계 프레임워크: Platform Engineering 2.0**(6절, 6.7절) — Broadcom, PlatformEngineering.org 공동 백서, *Platform Engineering 2.0: An Evolution for the AI Era*. 개발자 중심의 기존 플랫폼(Platform Engineering 1.0)이 AI 네이티브 플랫폼, 다중 페르소나, 내장 FinOps, 보안 기층화, 컴포저블(조합형) 아키텍처의 다섯 축으로 확장되어야 한다는 프레임워크로, 06의 진화형 아키텍처(6.2절), 골든 패스(6.3절), 비용 규율(6.7절) 논지와 같은 방향입니다. 백서가 인용한 두 제3자 통계는 1차 출처로 직접 확인했습니다 — 조직의 90%가 하나 이상의 (내부 개발자) 플랫폼을 도입(Google DORA, [2025 State of AI-assisted Software Development](https://dora.dev/dora-report-2025/)), 기업이 평균적으로 필요량보다 약 35% 더 많은 클라우드 자원에 지출(KPMG, [As cloud over-spending rises, look to cost optimization](https://kpmg.com/xx/en/our-insights/transformation/cloud-cost-optimization.html)). 후자는 '지출의 35%가 낭비'가 아니라 '필요량 대비 약 35% 초과 지출'이라는 점에 유의해 6.7절에 그대로 반영했습니다. (백서 원문: [The Time for Platform Engineering 2.0 Is Now](https://www.linkedin.com/pulse/time-platform-engineering-20-now-vmwarevcf-m3yfc/))
-- **업계 프레임워크: FinOps 관리 범위(Scopes)**(6.7절, A1.1 FinOps 항목) — FinOps Foundation, *FinOps Framework*. 2025년 프레임워크 갱신에서 관리 범위를 퍼블릭 클라우드에서 기술 지출 전반으로 넓히는 Scopes 개념을 도입해, SaaS, 데이터센터, 데이터 플랫폼, AI, 라이선스를 기술 범주(Technology Categories)로 공식화했습니다. 재단의 사명도 "클라우드의 가치"에서 "기술의 가치"를 관리하는 사람들로 바뀌었습니다. 6.7절의 "2025년부터 SaaS, 데이터센터, AI 지출까지 공식 관리 범위" 서술의 출처입니다. (원문: [FinOps Framework Overview](https://www.finops.org/framework/))
+- **업계 프레임워크: Platform Engineering 2.0**(6절, 6.7절) — Broadcom, PlatformEngineering.org 공동 백서, *Platform Engineering 2.0: An Evolution for the AI Era*. 개발자 중심의 기존 플랫폼(Platform Engineering 1.0)이 AI 네이티브 플랫폼, 다중 페르소나, 내장 FinOps, 보안의 기반 계층 내장, 컴포저블(조합형) 아키텍처의 다섯 축으로 확장되어야 한다는 프레임워크로, 06의 진화형 아키텍처(6.2절), 골든 패스(6.3절), 비용 규율(6.7절) 논지와 같은 방향입니다. 백서가 인용한 두 제3자 통계는 1차 출처로 직접 확인했습니다 — 조직의 90%가 하나 이상의 (내부 개발자) 플랫폼을 도입(Google DORA, [2025 State of AI-assisted Software Development](https://dora.dev/dora-report-2025/)), 기업이 평균적으로 필요량보다 약 35% 더 많은 클라우드 자원에 지출(KPMG, [As cloud over-spending rises, look to cost optimization](https://kpmg.com/xx/en/our-insights/transformation/cloud-cost-optimization.html)). 후자는 '지출의 35%가 낭비'가 아니라 '필요량 대비 약 35% 초과 지출'이라는 점에 유의해 6.7절에 그대로 반영했습니다. (백서 원문: [The Time for Platform Engineering 2.0 Is Now](https://www.linkedin.com/pulse/time-platform-engineering-20-now-vmwarevcf-m3yfc/))
+- **업계 프레임워크: FinOps 관리 범위(Scopes)**(6.7절) — FinOps Foundation, *FinOps Framework*. 2025년 프레임워크 갱신에서 관리 범위를 퍼블릭 클라우드에서 기술 지출 전반으로 넓히는 Scopes 개념을 도입해, SaaS, 데이터센터, 데이터 플랫폼, AI, 라이선스를 기술 범주(Technology Categories)로 공식화했습니다. 재단의 사명도 "클라우드의 가치"에서 "기술의 가치"를 관리하는 사람들로 바뀌었습니다. 6.7절의 "2025년부터 SaaS, 데이터센터, AI 지출까지 공식 관리 범위" 서술의 출처입니다. (원문: [FinOps Framework Overview](https://www.finops.org/framework/))
 - Private AI 구현의 구체 경로는 다음 시리즈를 참조하시기 바랍니다.
   - [VCF Private AI 가이드 시리즈 허브](https://github.com/JaeHoYun/vcf-private-ai)
   - [① 인프라와 운영](https://github.com/JaeHoYun/vcf-private-ai/tree/main/01-infra) | [② 벡터 DB](https://github.com/JaeHoYun/vcf-private-ai/tree/main/02-vectordb) | [③ 서빙 API](https://github.com/JaeHoYun/vcf-private-ai/tree/main/03-serving-api) | [④ RAG 아키텍처](https://github.com/JaeHoYun/vcf-private-ai/tree/main/04-rag) | [⑤ 보안과 거버넌스](https://github.com/JaeHoYun/vcf-private-ai/tree/main/05-security) | [⑥ 사이징과 비용](https://github.com/JaeHoYun/vcf-private-ai/tree/main/06-sizing-cost) | [⑦ 통합 설계](https://github.com/JaeHoYun/vcf-private-ai/tree/main/07-design)

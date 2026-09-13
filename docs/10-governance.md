@@ -153,4 +153,4 @@
 
 ---
 
-[← 이전: 09 브라운필드 AX](09-brownfield-assessment.md) | [목차](../README.md) | [다음: A1 용어집, FAQ, 참고 →](../appendix/A1-appendix.md)
+[← 이전: 09 브라운필드 AX](09-brownfield-assessment.md) | [목차](../README.md) | [다음: A1 FAQ, 참고 →](../appendix/A1-appendix.md)
