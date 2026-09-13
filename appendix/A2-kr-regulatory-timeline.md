@@ -37,4 +37,4 @@
 
 ---
 
-[← 이전: A1 용어집, FAQ, 참고](A1-appendix.md) | [목차](../README.md)
+[← 이전: A1 FAQ, 참고](A1-appendix.md) | [목차](../README.md)
