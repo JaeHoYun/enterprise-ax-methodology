@@ -75,7 +75,7 @@
 | 9. 조직 신설과 전환의 혼동 | [07장 7.4절](../docs/07-organization-and-control.md), [08장 8.4절](../docs/08-scale-and-next.md) |
 | 10. 기반 없이 얹기 | [03장 3.6절](../docs/03-problem-definition.md), [04장 4.3절](../docs/04-validation.md) |
 
-양상에 이름을 붙이는 목적은 비난이 아니라 다음 조치를 작게 정하는 것입니다. 되돌아오는 방법은 [08장 8.6절](../docs/08-scale-and-next.md)에 적었습니다.
+양상에 이름을 붙이는 목적은 비난이 아니라 다음 조치를 작게 정하는 것입니다. 방향을 바로잡는 방법은 [08장 8.6절](../docs/08-scale-and-next.md)에 정리했습니다.
 
 ---
 
