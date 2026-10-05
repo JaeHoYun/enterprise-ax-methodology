@@ -27,17 +27,6 @@ AX에 착수하기 전 단계에서 무엇을 살펴보고, 어떻게 문제를 
 - **보조 독자.** 임원. [00장](docs/00-orientation.md)과 각 장 첫머리의 요약만 읽어도 전체 내용을 파악할 수 있도록 구성했습니다.
 - **대상이 아닌 독자.** 플랫폼과 인프라를 책임지는 분은 아래 관련 가이드를 참고하시기 바랍니다.
 
-## 빠른 시작
-
-[01장](docs/01-starting-point.md)의 상태 유형에 따라 먼저 읽을 장이 다릅니다.
-
-- **AX로 무엇을 달성하려는지 아직 정하지 못했다면** → [01장 1.2.1절](docs/01-starting-point.md), [02장 2.1절](docs/02-lenses.md), [03장 3.5절](docs/03-problem-definition.md)
-- **방향은 있는데 어느 업무의 무엇이 문제인지 파악하지 못했다면** → [02장](docs/02-lenses.md), [03장](docs/03-problem-definition.md)
-- **문제는 아는데 조직 구조, 권한, 데이터 소유 때문에 개선에 착수하기 어렵다면** → [01장 1.2.3절](docs/01-starting-point.md), [03장 3.3절](docs/03-problem-definition.md)
-- **문제와 해법은 아는데 만들 사람과 시간이 없다면** → [05장](docs/05-solve-path.md), [04장](docs/04-validation.md)
-- **이미 여러 부서가 AI를 사용하고 있다면** → [01장 1.4절](docs/01-starting-point.md), [07장 7.6절](docs/07-organization-and-control.md)
-- **임원이라면** → [00장](docs/00-orientation.md)과 각 장 첫머리의 요약
-
 ## 주요 용어
 
 | 용어 | 설명 |
